@@ -30,10 +30,6 @@ pip install -r requirements.txt
 - [AntifakePrompt](https://github.com/nctu-eva-lab/antifakeprompt)
 - [Bi-LORA](https://github.com/Mamadou-Keita/VLM-DETECT/)
 
-To re-train DeeCLIP:
-```python
-python training.py
-```
 ## Evaluation
 To run the test on specific dataset, use the following command:
 ```python
