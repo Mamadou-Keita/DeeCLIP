@@ -3,12 +3,12 @@
 ☀️ If you find this work useful for your research, please kindly star our repo and cite our paper! ☀️
 
 ### TODO
-We are working hard on following items.
+We are working hard on the following items:
 
-- [ ] Release ArXiv paper
-- [ ] Release training scripts
-- [ ] Release inference scripts
-- [ ] Release checkpoints
+- [ ] Release ArXiv paper  
+- [ ] Release training scripts  
+- [x] Release inference scripts  
+- [x] Release checkpoints
 
 ## Introduction
 
