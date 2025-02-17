@@ -36,6 +36,12 @@ To run the test on specific dataset, use the following command:
 python testing.py
 ```
 
+## T-SNE Plot of feature distribution
+
+| ![](assets/tsne_plot_progan.png) | ![](assets/tsne_plot_stylegan.png) | ![](assets/tsne_plot_stargan.png) | ![](assets/tsne_plot_crn.png) |
+|------------------------|------------------------|------------------------|------------------------|
+| ![](assets/tsne_plot_imle.png) | ![](assets/tsne_plot_guided.png) | ![](assets/tsne_plot_glide_100_10.png) | ![](assets/tsne_plot_ldm_100.png) |
+
 
 ## :book: Citation
 if you make use of our work, please cite our paper
