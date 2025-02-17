@@ -55,6 +55,18 @@ python testing.py
 | ![](assets/tsne_plot_imle.png) | ![](assets/tsne_plot_guided.png) | ![](assets/tsne_plot_glide_100_10.png) | ![](assets/tsne_plot_ldm_100.png) |
 
 
+## Generalization Performance of Methods Trained on ProGAN
+
+Results show accuracy (%) on real (🟢) and synthetic (🔴) data subsets.
+
+| Methods   | Training Set | #params | 🟢 MS COCO | 🟢 Flickr | 🔴 ControlNet | 🔴 Dall3 | 🔴 DiffusionDB | 🔴 IF | 🔴 LaMA | 🔴 LTE | 🔴 SD2Inpaint | 🔴 SDXL | 🔴 SGXL | 🔴 SD3 | mAcc |
+|-----------|-------------|---------|------------|-----------|--------------|----------|---------------|------|------|------|-------------|------|------|------|-----------|
+| **FatFormer** | ProGAN | 493M | 33.97 | 34.04 | 28.27 | 32.07 | 28.10 | 27.95 | 28.67 | 12.37 | 22.63 | 31.97 | 22.23 | 35.91 | 28.18 |
+| **RINE**      | ProGAN | 434M | 99.80 | 99.90 | 91.60 | 75.00 | 73.00 | 77.40 | 30.90 | 98.20 | 71.90 | 22.90 | 98.50 | 08.30 | 70.56 |
+| **C2P-CLIP**  | ProGAN | 304M | 99.67 | 99.73 | 15.10 | 75.57 | 27.87 | 89.56 | 65.43 | 00.20 | 27.90 | 82.90 | 07.17 | 70.46 | 55.13 |
+| **DecCLIP**   | ProGAN | 306M | 97.83 | 98.50 | 86.03 | 69.33 | 71.10 | 61.37 | 63.07 | 99.97 | 80.57 | 62.60 | 98.90 | 58.61 | **78.99** |
+
+
 ## :book: Citation
 if you make use of our work, please cite our paper
 ```
