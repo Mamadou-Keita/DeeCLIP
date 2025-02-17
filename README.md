@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Download Model Weights
 
-To use the model, download the weights and save them in the `weights` folder.
+To use the model, download the weight and save it in the `weights` folder.
 
 ### **Automatic Download (Command Line)**
 Run the following command in your terminal:
