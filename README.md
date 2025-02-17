@@ -22,6 +22,18 @@ In this paper, we proposed DeeCLIP, a novel, robust, and generalizable transform
 ``` python
 pip install -r requirements.txt
 ```
+
+## Download Model Weights
+
+To use the model, download the weights and save them in the `weights` folder.
+
+### **Automatic Download (Command Line)**
+Run the following command in your terminal:
+
+```sh
+mkdir -p weights && wget -O weights/deeclip_weight_complete_with_lora_5.pth "https://www.dropbox.com/scl/fi/ttiqnbxu8atz4on5gqvgd/deeclip_weight_complete_with_lora_5.pth?rlkey=6xznuvriabkqfdcofhi1pbihu&st=fk02k7hf&dl=1"
+```
+
 ## SOTA Detection Methods
 
 - [C2P-CLIP](https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection)
