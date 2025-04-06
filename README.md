@@ -57,9 +57,9 @@ python testing.py
 
 ## Generalization Performance of Methods Trained on ProGAN
 
-Results show accuracy (%) on real (🟢) and synthetic (🔴) data subsets.
+Results show accuracy (%) on real and synthetic data subsets.
 
-| Methods   | Training Set | #params | 🟢 MS COCO | 🟢 Flickr | 🔴 ControlNet | 🔴 Dall3 | 🔴 DiffusionDB | 🔴 IF | 🔴 LaMA | 🔴 LTE | 🔴 SD2Inpaint | 🔴 SDXL | 🔴 SGXL | 🔴 SD3 | mAcc |
+| Methods   | Training Set | #params | MS COCO | Flickr | ControlNet | Dall3 | DiffusionDB | IF | LaMA | LTE | SD2Inpaint | SDXL | SGXL | SD3 | mAcc |
 |-----------|-------------|---------|------------|-----------|--------------|----------|---------------|------|------|------|-------------|------|------|------|-----------|
 | **FatFormer** | ProGAN | 493M | 33.97 | 34.04 | 28.27 | 32.07 | 28.10 | 27.95 | 28.67 | 12.37 | 22.63 | 31.97 | 22.23 | 35.91 | 28.18 |
 | **RINE**      | ProGAN | 434M | 99.80 | 99.90 | 91.60 | 75.00 | 73.00 | 77.40 | 30.90 | 98.20 | 71.90 | 22.90 | 98.50 | 08.30 | 70.56 |
