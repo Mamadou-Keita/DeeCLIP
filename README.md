@@ -1,4 +1,4 @@
-# DeeCLIP: A Robust Transformer-Based Approach for AI-Generated Image Detection
+# DeeCLIP: A Robust and Generalizable Transformer-Based Framework for Detecting AI-Generated Images
 
 ☀️ If you find this work useful for your research, please kindly star our repo and cite our paper! ☀️
 
