@@ -83,10 +83,13 @@ Results show accuracy (%) on real and synthetic data subsets.
 ## :book: Citation
 if you make use of our work, please cite our paper
 ```
-@article{,
-  title={DeeCLIP: A Robust and Generalizable Transformer-Based Framework for Detecting AI-Generated Images},
-  author={Keita, Mamadou and Hamidouche, Wassim and Bougueffa, Hassen and Hadid, Abdenour and Taleb-Ahmed, Abdelmalik},
-  journal={},
-  year={2025}
+@misc{keita2025deecliprobustgeneralizabletransformerbased,
+      title={DeeCLIP: A Robust and Generalizable Transformer-Based Framework for Detecting AI-Generated Images}, 
+      author={Mamadou Keita and Wassim Hamidouche and Hessen Bougueffa Eutamene and Abdelmalik Taleb-Ahmed and Abdenour Hadid},
+      year={2025},
+      eprint={2504.19876},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.19876}, 
 }
 ```
