@@ -6,7 +6,7 @@
 We are working hard on the following items:
 
 - [x] Release ArXiv paper  
-- [ ] Release training scripts  
+- [x] Release training scripts  
 - [x] Release inference scripts  
 - [x] Release checkpoints
 
